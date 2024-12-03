@@ -3,8 +3,20 @@
   padding: 0;
 }
 
-NavBar {
-    display: flex;
-    flex-direction: row;
-    height: 10em;
+@font-face {
+  font-family: "jaldi";
+  src: url("./assets/fonts/jaldi.ttf");
+}
+
+@font-face {
+  font-family: "mulish";
+  src: url("./assets/fonts/mulish.ttf");
+}
+
+:root {
+  --light: #c2c2c2;
+  --medium: #b0b28f;
+  --dark: #161915;
+  --title-font: "jaldi";
+  --text-font: "mulish";
 }
