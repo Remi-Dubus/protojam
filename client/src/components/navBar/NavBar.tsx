@@ -1,12 +1,22 @@
-import SearchBar from "../searchBar/SearchBar";
-import style from "./navBar.module.css";
+import styles from "./navBar.module.css";
 
 export default function NavBar() {
   return (
-    <nav className={style.navBar}>
-      <h2>Logo</h2>
-      <SearchBar />
-      <h2>BRGR</h2>
-    </nav>
+    <section className={styles["navbar-container"]}>
+      <img
+        className={styles.logo}
+        src="../src/assets/images/Logo.png"
+        alt="Logo"
+      />
+      <div className={styles.column}>
+        <h2>Vital Market</h2>
+        <div>Rechercher</div>
+      </div>
+      <select className={styles["filtre-container"]}>
+        <option value="" className="">
+          Filtre
+        </option>
+      </select>
+    </section>
   );
 }
