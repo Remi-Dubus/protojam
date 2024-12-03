@@ -1,0 +1,28 @@
+.slidercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contener {
+  width: 100%;
+  height: auto;
+}
+
+slider {
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  background-color: lightgrey;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  width: 25vw;
+}
+
+img {
+  height: 20vh;
+  width: 10vw;
+  justify-content: center;
+}
