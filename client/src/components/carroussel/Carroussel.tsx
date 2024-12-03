@@ -10,69 +10,322 @@ function Carroussel() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
   };
 
   return (
-    <div className={styles.slidercontainer}>
-      <div className={styles.contener}>
-        <Slider {...settings}>
-          <figure className={styles.cards}>
-            <img src={data[0].Image} alt="{data[0].Image}" />
-            <figcaption>
-              <h3>{data[0].Prénom}</h3>
-              <h3>{data[0].Catégorie}</h3>
-              <h3>{data[0].Description} </h3>
-              <h3>{data[0]["Niveau de prix"]} </h3>
-            </figcaption>
-          </figure>
-          <figure className={styles.cards}>
-            <img src={data[1].Image} alt="{data[1].Image}" />
-            <figcaption>
-              <h3>{data[1].Prénom}</h3>
-              <h3>{data[1].Catégorie}</h3>
-              <h3>{data[1].Description} </h3>
-              <h3>{data[1]["Niveau de prix"]} </h3>
-            </figcaption>
-          </figure>
-          <figure className={styles.cards}>
-            <img src={data[2].Image} alt="{data[2].Image}" />
-            <figcaption>
-              <h3>{data[2].Prénom}</h3>
-              <h3>{data[2].Catégorie}</h3>
-              <h3>{data[2].Description} </h3>
-              <h3>{data[2]["Niveau de prix"]} </h3>
-            </figcaption>
-          </figure>
-          <figure className={styles.cards}>
-            <img src={data[3].Image} alt="{data[3].Image}" />
-            <figcaption>
-              <h3>{data[3].Prénom}</h3>
-              <h3>{data[3].Catégorie}</h3>
-              <h3>{data[3].Description} </h3>
-              <h3>{data[3]["Niveau de prix"]} </h3>
-            </figcaption>
-          </figure>
-          <figure className={styles.cards}>
-            <h1>{data[0].Image}</h1>
-            <figcaption>
-              <h3>{data[0].Prénom}</h3>
-              <h3>{data[0].Catégorie}</h3>
-              <h3>{data[0].Description} </h3>
-              <h3>{data[0]["Niveau de prix"]} </h3>
-            </figcaption>
-          </figure>
-          <figure className={styles.cards}>
-            <img src={data[2].Image} alt="{data[2].Image}" />
-            <figcaption>
-              <h3>{data[2].Prénom}</h3>
-              <h3>{data[2].Catégorie}</h3>
-              <h3>{data[2].Description} </h3>
-              <h3>{data[2]["Niveau de prix"]} </h3>
-            </figcaption>
-          </figure>
-        </Slider>
+    <div className={styles.alignement}>
+      <div className={styles.slidercontainer}>
+        <div className={styles.contener}>
+          <h2 className={styles.maintitle}>ALIMENTATION</h2>
+          <Slider {...settings}>
+            <figure className={styles.cards}>
+              <img src={data[0].Image} alt={data[0].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[0].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[0].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[0]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[1].Image} alt={data[1].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[1].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[1].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[1]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[2].Image} alt={data[2].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[2].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[2].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[2]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[3].Image} alt={data[3].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[3].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[3].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[3]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[0].Image} alt={data[1].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[1].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[1].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[0]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[2].Image} alt={data[2].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[2].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[2].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[2]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+          </Slider>
+        </div>
+      </div>
+
+      <div className={styles.slidercontainer}>
+        <div className={styles.contener}>
+          <h2 className={styles.maintitle}>EQUIPEMENTS</h2>
+          <Slider {...settings}>
+            <figure className={styles.cards}>
+              <img src={data[0].Image} alt={data[0].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[0].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[0].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[0]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[1].Image} alt={data[1].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[1].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[1].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[1]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[2].Image} alt={data[2].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[2].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[2].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[2]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[3].Image} alt={data[3].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[3].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[3].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[3]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[0].Image} alt={data[1].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[1].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[1].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[0]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[2].Image} alt={data[2].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[2].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[2].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[2]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+          </Slider>
+        </div>
+      </div>
+
+      <div className={styles.slidercontainer}>
+        <div className={styles.contener}>
+          <h2 className={styles.maintitle}>SERVICES</h2>
+          <Slider {...settings}>
+            <figure className={styles.cards}>
+              <img src={data[0].Image} alt={data[0].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[0].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[0].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[0]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[1].Image} alt={data[1].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[1].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[1].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[1]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[2].Image} alt={data[2].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[2].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[2].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[2]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[3].Image} alt={data[3].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[3].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[3].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[3]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[0].Image} alt={data[1].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[1].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[1].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[0]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+            <figure className={styles.cards}>
+              <img src={data[2].Image} alt={data[2].Image} />
+              <figcaption>
+                <h3 className={styles.title}>
+                  <b>{data[2].Prénom}</b>
+                </h3>
+                <h3>
+                  <b>Description: </b>
+                  <em>{data[2].Description}</em>
+                </h3>
+                <h3>
+                  <b>Prix: </b>
+                  <em>{data[2]["Niveau de prix"]}</em>
+                </h3>
+              </figcaption>
+            </figure>
+          </Slider>
+        </div>
       </div>
     </div>
   );
