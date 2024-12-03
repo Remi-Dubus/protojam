@@ -7,9 +7,9 @@
     "Description": "Médecin aguerri, Julien parcourt les ruines de Paris pour soigner les survivants, toujours équipé de son sac de premiers secours.",
     "Localisation": "Le Marais",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/medecin.jpg",
-    "Price level": "Élevé",
-    "Item/service 1": "Kit de premiers secours",
-    "Item/service 2": "vaccins"
+    "Price_level": "Élevé",
+    "Item/service_1": "Kit de premiers secours",
+    "Item/service_2": "vaccins"
   },
   {
     "ID": 2,
@@ -19,9 +19,9 @@
     "Description": "Sophie répare tout, des voitures aux générateurs, pour aider les habitants à survivre dans le chaos de Paris.",
     "Localisation": "Belleville",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/mecanicien.jpg",
-    "Price level": "Moyen",
-    "Item/service 1": "Véhicules",
-    "Item/service 2": "Outils"
+    "Price_level": "Moyen",
+    "Item/service_1": "Véhicules",
+    "Item/service_2": "Outils"
   },
   {
     "ID": 3,
@@ -31,9 +31,9 @@
     "Description": "Luc offre ses services en tout genre à ceux qui peuvent se permettre de le payer dans cette ville impitoyable.",
     "Localisation": "Montmartre",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/mercenaire.jpg",
-    "Price level": "Élevé",
-    "Item/service 1": "Protection rapprochée",
-    "Item/service 2": "Récupération d'objets'"
+    "Price_level": "Élevé",
+    "Item/service_1": "Protection rapprochée",
+    "Item/service_2": "Récupération d'objets'"
   },
   {
     "ID": 4,
@@ -43,9 +43,9 @@
     "Description": "Claire traque les criminels dans Paris, toujours prête à capturer ou neutraliser sa cible pour une récompense.",
     "Localisation": "Quartier Latin",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/chasseur_prime.jpg",
-    "Price level": "Élevé",
-    "Item/service 1": "Capture de fugitifs",
-    "Item/service 2": "Recherche de personnes disparues"
+    "Price_level": "Élevé",
+    "Item/service_1": "Capture de fugitifs",
+    "Item/service_2": "Recherche de personnes disparues"
   },
   {
     "ID": 5,
@@ -55,9 +55,9 @@
     "Description": "Mathieu vend des ressources rares, se déplaçant entre les quartiers pour échanger nourriture, armes et outils.",
     "Localisation": "La Défense",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/marchand.jpg",
-    "Price level": "Moyen",
-    "Item/service 1": "Kits de premiers secours",
-    "Item/service 2": "Vivres"
+    "Price_level": "Moyen",
+    "Item/service_1": "Kits de premiers secours",
+    "Item/service_2": "Vivres"
   },
   {
     "ID": 6,
@@ -67,9 +67,9 @@
     "Description": "Ancien forgeron, Hugo fabrique et répare des armes pour aider les habitants à se défendre dans ce monde dangereux.",
     "Localisation": "Le Marais",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/armurier.jpg",
-    "Price level": "Élevé",
-    "Item/service 1": "Armes",
-    "Item/service 2": "Munitions"
+    "Price_level": "Élevé",
+    "Item/service_1": "Armes",
+    "Item/service_2": "Munitions"
   },
   {
     "ID": 7,
@@ -79,9 +79,9 @@
     "Description": "Marion prépare des repas chauds pour les survivants, transformant des ingrédients limités en plats délicieux.",
     "Localisation": "Montmartre",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/restaurateur.jpg",
-    "Price level": "Moyen",
-    "Item/service 1": "Repas chaud",
-    "Item/service 2": "Boissons artisanales"
+    "Price_level": "Moyen",
+    "Item/service_1": "Repas chaud",
+    "Item/service_2": "Boissons artisanales"
   },
   {
     "ID": 8,
@@ -91,9 +91,9 @@
     "Description": "Antoine offre un refuge sûr pour la nuit, son auberge étant un lieu de repos pour les âmes fatiguées.",
     "Localisation": "Quartier Latin",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/aubergiste.jpg",
-    "Price level": "Moyen",
-    "Item/service 1": "Chambre pour la nuit",
-    "Item/service 2": "Renseignements"
+    "Price_level": "Moyen",
+    "Item/service_1": "Chambre pour la nuit",
+    "Item/service_2": "Renseignements"
   },
   {
     "ID": 9,
@@ -103,9 +103,9 @@
     "Description": "Paul protège les VIP dans Paris avec ses compétences inégalées en combat rapproché.",
     "Localisation": "Belleville",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/garde.jpg",
-    "Price level": "Élevé",
-    "Item/service 1": "Protection rapprochée",
-    "Item/service 2": "Exfiltration de personnes"
+    "Price_level": "Élevé",
+    "Item/service_1": "Protection rapprochée",
+    "Item/service_2": "Exfiltration de personnes"
   },
   {
     "ID": 10,
@@ -115,9 +115,9 @@
     "Description": "Charlotte transporte et revends du matériel interdis entre les ruines de Paris, défiant les dangers à chaque mission.",
     "Localisation": "Le Marais",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/contrebandier.jpg",
-    "Price level": "Faible",
-    "Item/service 1": "Armes",
-    "Item/service 2": "Vaccins"
+    "Price_level": "Faible",
+    "Item/service_1": "Armes",
+    "Item/service_2": "Vaccins"
   },
   {
     "ID": 11,
@@ -127,9 +127,9 @@
     "Description": "Thomas reconstruit les infrastructures essentielles à Paris, réparant ponts, générateurs et bâtiments.",
     "Localisation": "La Défense",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/ingenieur.jpg",
-    "Price level": "Élevé",
-    "Item/service 1": "Matériaux divers",
-    "Item/service 2": "Générateurs"
+    "Price_level": "Élevé",
+    "Item/service_1": "Matériaux divers",
+    "Item/service_2": "Générateurs"
   },
   {
     "ID": 12,
@@ -139,9 +139,9 @@
     "Description": "Elodie pirate les systèmes informatiques pour trouver des informations essentielles et aider les survivants dans ce chaos numérique.",
     "Localisation": "Montmartre",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/informatician.jpg",
-    "Price level": "Moyen",
-    "Item/service 1": "Décryptage de données",
-    "Item/service 2": "Maintenance réseau"
+    "Price_level": "Moyen",
+    "Item/service_1": "Décryptage de données",
+    "Item/service_2": "Maintenance réseau"
   },
   {
     "ID": 13,
@@ -151,9 +151,9 @@
     "Description": "Maxime brave les dangers pour documenter la vérité dans une ville en ruine, transmettant les récits des survivants.",
     "Localisation": "Quartier Latin",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/journaliste.jpg",
-    "Price level": "Faible",
-    "Item/service 1": "Reportage",
-    "Item/service 2": "Renseignements"
+    "Price_level": "Faible",
+    "Item/service_1": "Reportage",
+    "Item/service_2": "Renseignements"
   },
   {
     "ID": 14,
@@ -163,9 +163,9 @@
     "Description": "Clara livre des ressources vitales à travers Paris, défiant les gangs et les obstacles pour remplir sa mission.",
     "Localisation": "Le Marais",
     "Picture": "",
-    "Price level": "Moyen",
-    "Item/service 1": "Livraison rapide",
-    "Item/service 2": "Transport sécurisé"
+    "Price_level": "Moyen",
+    "Item/service_1": "Livraison rapide",
+    "Item/service_2": "Transport sécurisé"
   },
   {
     "ID": 15,
@@ -175,9 +175,9 @@
     "Description": "Émile garde la tradition vivante en cuisant du pain frais chaque jour pour nourrir les habitants affamés.",
     "Localisation": "Belleville",
     "Picture": "",
-    "Price level": "Faible",
-    "Item/service 1": "Pain artisanal",
-    "Item/service 2": "Pâtisseries simples"
+    "Price_level": "Faible",
+    "Item/service_1": "Pain artisanal",
+    "Item/service_2": "Pâtisseries simples"
   },
   {
     "ID": 16,
@@ -187,9 +187,9 @@
     "Description": "Lucas rebâtit des abris solides pour les survivants, transformant les ruines en lieux habitables.",
     "Localisation": "La Défense",
     "Picture": "",
-    "Price level": "Moyen",
-    "Item/service 1": "Matériaux divers",
-    "Item/service 2": "Outils"
+    "Price_level": "Moyen",
+    "Item/service_1": "Matériaux divers",
+    "Item/service_2": "Outils"
   },
   {
     "ID": 17,
@@ -199,9 +199,9 @@
     "Description": "Vincent répare les systèmes d’eau défaillants, rendant les logements de Paris un peu plus habitables.",
     "Localisation": "Montmartre",
     "Picture": "",
-    "Price level": "Moyen",
-    "Item/service 1": "Métaux divers",
-    "Item/service 2": "Outils"
+    "Price_level": "Moyen",
+    "Item/service_1": "Métaux divers",
+    "Item/service_2": "Outils"
   },
   {
     "ID": 18,
@@ -211,9 +211,9 @@
     "Description": "Amandine élève des animaux dans les ruines pour fournir nourriture et ressources aux habitants.",
     "Localisation": "Quartier Latin",
     "Picture": "",
-    "Price level": "Faible",
-    "Item/service 1": "Viande fraîche",
-    "Item/service 2": "Œufs et produits laitiers"
+    "Price_level": "Faible",
+    "Item/service_1": "Viande fraîche",
+    "Item/service_2": "Œufs et produits laitiers"
   },
   {
     "ID": 19,
@@ -223,9 +223,9 @@
     "Description": "Damien restaure et fabrique des meubles, ramenant un peu de confort dans les foyers parisiens.",
     "Localisation": "Le Marais",
     "Picture": "",
-    "Price level": "Moyen",
-    "Item/service 1": "Vêtements",
-    "Item/service 2": "Tissus"
+    "Price_level": "Moyen",
+    "Item/service_1": "Vêtements",
+    "Item/service_2": "Tissus"
   },
   {
     "ID": 20,
@@ -235,8 +235,8 @@
     "Description": "Chloé utilise des méthodes traditionnelles pour produire du fromage, une rareté dans cette ville post-apocalyptique.",
     "Localisation": "Belleville",
     "Picture": "",
-    "Price level": "Faible",
-    "Item/service 1": "Fromages artisanaux",
-    "Item/service 2": "Produits laitiers"
+    "Price_level": "Faible",
+    "Item/service_1": "Fromages artisanaux",
+    "Item/service_2": "Produits laitiers"
   }
 ]
