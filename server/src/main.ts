@@ -9,6 +9,12 @@ import "../database/checkConnection";
 // Import the Express application from ./app
 import app from "./app";
 
+const dataCharacters = require("../database/characters.json");
+
+app.get("/characters", async (req, res) => {
+  res.json(dataCharacters);
+});
+
 // Get the port from the environment variables
 const port = process.env.APP_PORT;
 
