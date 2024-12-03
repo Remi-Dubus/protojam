@@ -1,0 +1,31 @@
+/* section regroupant tout le composant */
+.searchBarSection {
+  padding: 0.7rem;
+}
+
+/* titre de la barre de recherche */
+.searchLabel {
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--title-font);
+}
+
+/* section du champ de saisie et boutton */
+.searchBar {
+  display: flex;
+}
+
+/* champ de saisie de la barre de recherche */
+.searchInput {
+  height: 7vw;
+  width: 40vw;
+}
+
+/* bouton de validation */
+.searchButton {
+  display: inline;
+  background-image: url("https://img.freepik.com/vecteurs-libre/illustration-icone-loupe_53876-5613.jpg?t=st=1733236353~exp=1733239953~hmac=18bb270accde71cb3aba68aaecfd91f2ce46b53c218aafb59639f929ba2a9f2b&w=740");
+  background-size: cover;
+  width: 7vw;
+  height: 5vh;
+}
