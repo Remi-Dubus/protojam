@@ -1,10 +1,10 @@
 .credit {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 1em;
-    margin-top: 1em;
-    background-color: rgba(29, 92, 50, 0.336);
-    outline: rgba(0, 0, 0, 0.774) solid 1px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1em;
+  margin-top: 1em;
+  background-color: rgba(29, 92, 50, 0.336);
+  outline: rgba(0, 0, 0, 0.774) solid 1px;
+  border-radius: 5px;
 }
