@@ -19,7 +19,16 @@ export default function NavBar({
       </div>
       <select className={styles["filtre-container"]}>
         <option value="" className="">
-          Filtre
+          - Prix -
+        </option>
+        <option value="bas" className="">
+          bas
+        </option>
+        <option value="moyen" className="">
+          moyen
+        </option>
+        <option value="élevé" className="">
+          élevé
         </option>
       </select>
     </section>
