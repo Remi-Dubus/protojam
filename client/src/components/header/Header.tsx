@@ -6,10 +6,10 @@ function Header() {
       <div className={style.heroPic} />
 
       <div className={style.shortcutContainer}>
-        <a href="?">Alimentation</a>
-        <a href="?">Biens</a>
-        <a href="?">Services</a>
-        <a href="?">Équipements</a>
+        <a href="#food">Alimentation</a>
+        <a href="#biens">Biens</a>
+        <a href="#serv">Services</a>
+        <a href="#equip">Équipements</a>
       </div>
 
       <div className={style.textContainer}>

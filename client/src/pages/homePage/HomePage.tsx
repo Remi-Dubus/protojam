@@ -23,6 +23,7 @@ import Tapisier from "../../assets/images/tapissier.jpg";
 
 import type { charactersType } from "../../assets/lib/definitions";
 import Carroussel from "../../components/carroussel/Carroussel";
+import CharactersSearch from "../../components/charactersSearch/CharactersSearch";
 
 export default function HomePage() {
   const characters: charactersType[] = useLoaderData() as charactersType[];
@@ -41,11 +42,13 @@ export default function HomePage() {
   ];
 
   // recupérations des props d'outlet
-  const cardValue: charactersType = useOutletContext();
+  const cardValue: charactersType | null = useOutletContext();
 
   return (
     <>
-      <h1>{cardValue !== null ? cardValue.Firstname : []}</h1>
+      <article>
+        <CharactersSearch character={cardValue && cardValue} />
+      </article>
       <article>
         <Carroussel
           characters={characters ? characters : []}
