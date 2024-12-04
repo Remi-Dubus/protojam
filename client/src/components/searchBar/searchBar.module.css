@@ -75,11 +75,10 @@
     font-size: 1rem;
   }
 }
-.dropDownRow:hover {
-  color: var(--light);
+.dropDown:hover {
   background-color: var(--dark);
+  color: var(--light);
 }
-
 /* bouton de validation */
 .searchButton {
   display: inline;

@@ -2,9 +2,13 @@ import Slider from "react-slick";
 import styles from "./Carroussel.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import data from "../../../../server/database/characters.json";
 import type { charactersType } from "../../assets/lib/definitions";
 
-function Carroussel({ characters }: { characters: charactersType[] }) {
+function Carroussel({
+  characters,
+  picture,
+}: { characters: charactersType[]; picture: string[] }) {
   const settings = {
     dots: true,
     infinite: true,
@@ -13,13 +17,20 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
     slidesToScroll: 1,
   };
 
+  const charactersFull: charactersType[] = data;
+
   return (
     <div className={styles.slidercontainer}>
       <div className={styles.contener}>
         <Slider {...settings}>
-          {characters.map((c) => (
+          {characters.map((c, i) => (
             <figure className={styles.cards} key={c.ID}>
-              <img src={c.Picture} alt="{data[0].Image}" />
+              <img
+                src={
+                  characters.length === charactersFull.length ? picture[i] : ""
+                }
+                alt={c.Profession}
+              />
               <figcaption id={`${c.ID}`}>
                 <h3>{c.Firstname}</h3>
                 <h3>{c.Catégorie}</h3>
