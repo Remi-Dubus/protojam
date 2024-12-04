@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../../../../server/database/characters.json";
+import { useLoaderData } from "react-router-dom";
 import type { charactersType } from "../../assets/lib/definitions";
 import style from "./searchBar.module.css";
 
@@ -9,7 +9,7 @@ export default function SearchBar({
   setCardValue: React.Dispatch<React.SetStateAction<charactersType | null>>;
 }) {
   // recupétation des données
-  const characters = data;
+  const characters: charactersType[] = useLoaderData() as charactersType[];
   // gestion de l'état
   const [value, setValue] = useState("");
 

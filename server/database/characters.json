@@ -38,7 +38,7 @@
   {
     "ID": 4,
     "Firstname": "Claire",
-    "Profession": "Chasseur de primes",
+    "Profession": "Chasseurdeprimes",
     "Catégorie": "Services",
     "Description": "Claire traque les criminels dans Paris, toujours prête à capturer ou neutraliser sa cible pour une récompense.",
     "Localisation": "Quartier Latin",
@@ -98,7 +98,7 @@
   {
     "ID": 9,
     "Firstname": "Paul",
-    "Profession": "Garde du corps",
+    "Profession": "Garde",
     "Catégorie": "Services",
     "Description": "Paul protège les VIP dans Paris avec ses compétences inégalées en combat rapproché.",
     "Localisation": "Belleville",
