@@ -1,6 +1,12 @@
+import type { charactersType } from "../../assets/lib/definitions";
+import SearchBar from "../searchBar/SearchBar";
 import styles from "./navBar.module.css";
 
-export default function NavBar() {
+export default function NavBar({
+  setCardValue,
+}: {
+  setCardValue: React.Dispatch<React.SetStateAction<charactersType | null>>;
+}) {
   return (
     <section className={styles["navbar-container"]}>
       <img
@@ -9,8 +15,7 @@ export default function NavBar() {
         alt="Logo"
       />
       <div className={styles.column}>
-        <h2>Vital Market</h2>
-        <div>Rechercher</div>
+        <SearchBar setCardValue={setCardValue} />
       </div>
       <select className={styles["filtre-container"]}>
         <option value="" className="">

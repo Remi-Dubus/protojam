@@ -1,0 +1,94 @@
+/* section regroupant tout le composant */
+.searchBarSection {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+/* titre de la barre de recherche */
+.searchLabel {
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--title-font);
+}
+
+/* section du champ de saisie et boutton */
+.searchBar {
+  display: flex;
+}
+
+/* champ de saisie de la barre de recherche */
+.searchInput {
+  height: 2.5rem;
+  width: 40vw;
+  box-shadow: inset -1px 1px 3px 0px var(--dark);
+  font-family: var(--text-font);
+  @media screen and (max-width: 767px) {
+    height: 1.5rem;
+  }
+}
+/* gestion des erreurs */
+.error {
+  color: orangered;
+  font-size: 1.5rem;
+  font-family: var(--text-font);
+  text-align: center;
+  margin-top: 0.5rem;
+
+  background-color: var(--medium);
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+}
+/* style de la barre de suggestion */
+.dropDownNone {
+  display: none;
+  background-color: var(--medium);
+}
+
+.dropDown {
+  position: absolute;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  top: 41.7rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--dark);
+  width: 40vw;
+  background-color: var(--dark);
+  box-shadow: -0.5vh 0.5vh 1vh #241715;
+  z-index: 10;
+  @media screen and (max-width: 767px) {
+    width: 40vw;
+    top: 31.3rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* suggestion du menu déroulant */
+.dropDownRow {
+  height: 2.2rem;
+  font-size: 1.5rem;
+  font-family: var(--text-font);
+  @media screen and (max-width: 767px) {
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+}
+.dropDownRow:hover {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+/* bouton de validation */
+.searchButton {
+  display: inline;
+  background-image: url("https://img.freepik.com/vecteurs-libre/illustration-icone-loupe_53876-5613.jpg?t=st=1733236353~exp=1733239953~hmac=18bb270accde71cb3aba68aaecfd91f2ce46b53c218aafb59639f929ba2a9f2b&w=740");
+  background-size: cover;
+  width: 2.5rem;
+  height: 2.5rem;
+  @media screen and (max-width: 767px) {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}

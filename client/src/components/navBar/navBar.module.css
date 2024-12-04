@@ -1,26 +1,26 @@
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    background-color: rgba(29, 92, 50, 0.336);
-    outline: rgba(0, 0, 0, 0.774) solid 1px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgba(29, 92, 50, 0.336);
+  outline: rgba(0, 0, 0, 0.774) solid 1px;
+  border-radius: 5px;
 }
 
 .logo {
-    width: 4em;
-    height: 4em;
+  width: 4em;
+  height: 4em;
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .filtre-container {
-    width: 4em;
-    margin: 0.5em;
+  width: 4em;
+  margin: 0.5em;
 }
