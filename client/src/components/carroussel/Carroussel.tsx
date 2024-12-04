@@ -14,8 +14,10 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
   };
 
   return (
+    <div className={styles.alignement}>
     <div className={styles.slidercontainer}>
       <div className={styles.contener}>
+      <h2 className={styles.maintitle}>ALIMENTATION</h2>
         <Slider {...settings}>
           {characters.map((c) => (
             <figure className={styles.cards} key={c.ID}>
@@ -30,6 +32,43 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
           ))}
         </Slider>
       </div>
+    </div>
+    <div className={styles.slidercontainer}>
+      <div className={styles.contener}>
+      <h2 className={styles.maintitle}>EQUIPEMENTS</h2>
+        <Slider {...settings}>
+          {characters.map((c) => (
+            <figure className={styles.cards} key={c.ID}>
+              <img src={c.Picture} alt="{data[0].Image}" />
+              <figcaption id={`${c.ID}`}>
+                <h3>{c.Firstname}</h3>
+                <h3>{c.Catégorie}</h3>
+                <h3>{c.Description} </h3>
+                <h3>{c.Price_level} </h3>
+              </figcaption>
+            </figure>
+          ))}
+        </Slider>
+      </div>
+    </div>
+    <div className={styles.slidercontainer}>
+      <div className={styles.contener}>
+      <h2 className={styles.maintitle}>SERVICES</h2>
+        <Slider {...settings}>
+          {characters.map((c) => (
+            <figure className={styles.cards} key={c.ID}>
+              <img src={c.Picture} alt="{data[0].Image}" />
+              <figcaption id={`${c.ID}`}>
+                <h3>{c.Firstname}</h3>
+                <h3>{c.Catégorie}</h3>
+                <h3>{c.Description} </h3>
+                <h3>{c.Price_level} </h3>
+              </figcaption>
+            </figure>
+          ))}
+        </Slider>
+      </div>
+    </div>
     </div>
   );
 }
