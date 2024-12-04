@@ -1,12 +1,9 @@
-import hero from "../../assets/images/hero-picture.jpg";
 import style from "./header.module.css";
 
 function Header() {
   return (
     <header>
-      <div className={style.heroPic}>
-        <img src={hero} alt="Centre commercial détruit." />
-      </div>
+      <div className={style.heroPic} />
 
       <div className={style.shortcutContainer}>
         <a href="?">Alimentation</a>
