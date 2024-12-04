@@ -17,20 +17,6 @@ export default function NavBar({
       <div className={styles.column}>
         <SearchBar setCardValue={setCardValue} />
       </div>
-      <select className={styles["filtre-container"]}>
-        <option value="" className="">
-          - Prix -
-        </option>
-        <option value="bas" className="">
-          bas
-        </option>
-        <option value="moyen" className="">
-          moyen
-        </option>
-        <option value="élevé" className="">
-          élevé
-        </option>
-      </select>
     </section>
   );
 }

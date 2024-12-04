@@ -1,4 +1,5 @@
 .alignement {
+  background-color: var(--medium);
   display: flex;
   flex-direction: column;
   @media (min-width: 768px) {
@@ -53,22 +54,25 @@
 }
 
 figure img {
-  background-color: var(--light);
+  background-color: var(--color2-);
   border-radius: 10%;
   box-shadow: 0 0 5px black;
-  height: 25vh;
-  width: 45%;
+  height: 180px;
+  width: 180px;
   margin: 1rem;
   position: relative;
-  left: 90px;
+  left: 85px;
   @media (min-width: 768px) {
     margin: 0 4rem;
     box-shadow: 0 0 10px black;
+    left: 132px;
+    width: 350px;
+    height: 350px;
   }
 }
 
 figcaption {
-  background-color: var(--color2-);
+  background-color: var(--light);
   border-style: groove;
   border-radius: 5%;
   box-shadow: 0 0 5px black;
@@ -78,9 +82,12 @@ figcaption {
   height: 35vh;
   margin: 1rem 2rem;
   @media (min-width: 768px) {
-    height: 45vh;
+    height: 35vh;
     margin: 1rem 3rem 0 3rem;
     box-shadow: 0 0 10px black;
+    width: 500px;
+    position: relative;
+    left: 65px;
   }
 }
 
