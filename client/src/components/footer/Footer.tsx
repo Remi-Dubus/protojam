@@ -1,3 +1,5 @@
+import styles from "./footer.module.css"
+
 export default function Footer() {
-  return <h2>Footer</h2>;
+  return <span className={styles.credit}>Credit : Wild Survival Team</span>;
 }
