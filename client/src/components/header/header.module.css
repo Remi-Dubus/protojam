@@ -19,17 +19,11 @@
 }
 
 .heroPic {
-  position: relative;
   width: 150%;
   height: 450px;
-  overflow: hidden;
-}
-
-.heroPic img {
-  width: 150%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
+  background-image: url("../../assets/images/hero-picture.jpg");
+  background-size: 150%;
+  background-repeat: no-repeat;
 }
 
 .textContainer {
@@ -71,13 +65,6 @@
 
   .heroPic {
     height: 600px;
-  }
-
-  .heroPic img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
   }
 
   .textContainer {
