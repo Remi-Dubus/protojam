@@ -1,5 +1,4 @@
-import { useOutletContext } from "react-router-dom";
-import data from "../../../../server/database/characters.json";
+import { useLoaderData, useOutletContext } from "react-router-dom";
 
 import Armurier from "../../assets/images/armurier.jpg";
 import Aubergiste from "../../assets/images/aubergiste.jpg";
@@ -19,7 +18,7 @@ import type { charactersType } from "../../assets/lib/definitions";
 import Carroussel from "../../components/carroussel/Carroussel";
 
 export default function HomePage() {
-  const characters = data as charactersType[];
+  const characters: charactersType[] = useLoaderData() as charactersType[];
 
   const pictureFood = [Restaurateur];
   const pictureEquip = [Mécanicien, Armurier];
@@ -38,10 +37,10 @@ export default function HomePage() {
 
   return (
     <>
-      <h1>{cardValue ? cardValue.Firstname : []}</h1>
+      <h1>{cardValue !== null ? cardValue.Firstname : []}</h1>
       <article>
         <Carroussel
-          characters={characters}
+          characters={characters ? characters : []}
           pictureFood={pictureFood}
           pictureEquip={pictureEquip}
           pictureServ={pictureServ}

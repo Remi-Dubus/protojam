@@ -44,7 +44,7 @@ function Carroussel({
           <Slider {...settings}>
             {alimentation.map((c, i) => (
               <figure className={styles.cards} key={c.ID}>
-                <img src={pictureFood[i]} alt="{data[0].Image}" />
+                <img src={pictureFood[i]} alt={c.Profession} />
                 <figcaption id={`${c.ID}`}>
                   <h3 className={styles.title}>{c.Firstname}</h3>
                   <h3>

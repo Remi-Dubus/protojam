@@ -6,10 +6,12 @@ import HomePage from "./pages/homePage/HomePage";
 export const mainRouter = createBrowserRouter([
   {
     element: <App />,
+    loader: () => fetch(`${import.meta.env.VITE_API_URL}`),
     children: [
       {
         path: "/",
         element: <HomePage />,
+        loader: () => fetch(`${import.meta.env.VITE_API_URL}`),
       },
     ],
   },
