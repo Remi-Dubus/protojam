@@ -162,7 +162,7 @@
     "Catégorie": "Services",
     "Description": "Clara livre des ressources vitales à travers Paris, défiant les gangs et les obstacles pour remplir sa mission.",
     "Localisation": "Le Marais",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/livreur.jpg",
     "Price_level": "Moyen",
     "Itemservice_1": "Livraison rapide",
     "Itemservice_2": "Transport sécurisé"
@@ -174,7 +174,7 @@
     "Catégorie": "Alimentation",
     "Description": "Émile garde la tradition vivante en cuisant du pain frais chaque jour pour nourrir les habitants affamés.",
     "Localisation": "Belleville",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/boulanger.jpg",
     "Price_level": "Faible",
     "Itemservice_1": "Pain artisanal",
     "Itemservice_2": "Pâtisseries simples"
@@ -186,7 +186,7 @@
     "Catégorie": "Equipements",
     "Description": "Lucas rebâtit des abris solides pour les survivants, transformant les ruines en lieux habitables.",
     "Localisation": "La Défense",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/macon.jpg",
     "Price_level": "Moyen",
     "Itemservice_1": "Matériaux divers",
     "Itemservice_2": "Outils"
@@ -198,7 +198,7 @@
     "Catégorie": "Equipements",
     "Description": "Vincent répare les systèmes d’eau défaillants, rendant les logements de Paris un peu plus habitables.",
     "Localisation": "Montmartre",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/plombier.jpg",
     "Price_level": "Moyen",
     "Itemservice_1": "Métaux divers",
     "Itemservice_2": "Outils"
@@ -210,7 +210,7 @@
     "Catégorie": "Alimentation",
     "Description": "Amandine élève des animaux dans les ruines pour fournir nourriture et ressources aux habitants.",
     "Localisation": "Quartier Latin",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/eleveur.jpg",
     "Price_level": "Faible",
     "Itemservice_1": "Viande fraîche",
     "Itemservice_2": "Œufs et produits laitiers"
@@ -222,7 +222,7 @@
     "Catégorie": "Biens",
     "Description": "Damien restaure et fabrique des meubles, ramenant un peu de confort dans les foyers parisiens.",
     "Localisation": "Le Marais",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/tapissier.jpg",
     "Price_level": "Moyen",
     "Itemservice_1": "Vêtements",
     "Itemservice_2": "Tissus"
@@ -234,7 +234,7 @@
     "Catégorie": "Alimentation",
     "Description": "Chloé utilise des méthodes traditionnelles pour produire du fromage, une rareté dans cette ville post-apocalyptique.",
     "Localisation": "Belleville",
-    "Picture": "",
+    "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/fromagerie.jpg",
     "Price_level": "Faible",
     "Itemservice_1": "Fromages artisanaux",
     "Itemservice_2": "Produits laitiers"
