@@ -11,7 +11,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1>{cardValue ? cardValue.Firstname : []}</h1>
+      <h1>{cardValue.Firstname}</h1>
       <Carroussel characters={characters ? characters : []} />{" "}
     </>
   );
