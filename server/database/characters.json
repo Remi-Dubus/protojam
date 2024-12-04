@@ -3,13 +3,13 @@
     "ID": 1,
     "Firstname": "Julien",
     "Profession": "Médecin",
-    "Category": "Biens",
+    "Catégorie": "Biens",
     "Description": "Médecin aguerri, Julien parcourt les ruines de Paris pour soigner les survivants, toujours équipé de son sac de premiers secours.",
     "Localisation": "Le Marais",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/medecin.jpg",
     "Price_level": "Élevé",
-    "Item/service_1": "Kit de premiers secours",
-    "Item/service_2": "vaccins"
+    "Itemservice_1": "Kit de premiers secours",
+    "Itemservice_2": "vaccins"
   },
   {
     "ID": 2,
@@ -20,8 +20,8 @@
     "Localisation": "Belleville",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/mecanicien.jpg",
     "Price_level": "Moyen",
-    "Item/service_1": "Véhicules",
-    "Item/service_2": "Outils"
+    "Itemservice_1": "Véhicules",
+    "Itemservice_2": "Outils"
   },
   {
     "ID": 3,
@@ -32,8 +32,8 @@
     "Localisation": "Montmartre",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/mercenaire.jpg",
     "Price_level": "Élevé",
-    "Item/service_1": "Protection rapprochée",
-    "Item/service_2": "Récupération d'objets'"
+    "Itemservice_1": "Protection rapprochée",
+    "Itemservice_2": "Récupération d'objets'"
   },
   {
     "ID": 4,
@@ -44,8 +44,8 @@
     "Localisation": "Quartier Latin",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/chasseur_prime.jpg",
     "Price_level": "Élevé",
-    "Item/service_1": "Capture de fugitifs",
-    "Item/service_2": "Recherche de personnes disparues"
+    "Itemservice_1": "Capture de fugitifs",
+    "Itemservice_2": "Recherche de personnes disparues"
   },
   {
     "ID": 5,
@@ -56,8 +56,8 @@
     "Localisation": "La Défense",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/marchand.jpg",
     "Price_level": "Moyen",
-    "Item/service_1": "Kits de premiers secours",
-    "Item/service_2": "Vivres"
+    "Itemservice_1": "Kits de premiers secours",
+    "Itemservice_2": "Vivres"
   },
   {
     "ID": 6,
@@ -68,8 +68,8 @@
     "Localisation": "Le Marais",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/armurier.jpg",
     "Price_level": "Élevé",
-    "Item/service_1": "Armes",
-    "Item/service_2": "Munitions"
+    "Itemservice_1": "Armes",
+    "Itemservice_2": "Munitions"
   },
   {
     "ID": 7,
@@ -80,8 +80,8 @@
     "Localisation": "Montmartre",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/restaurateur.jpg",
     "Price_level": "Moyen",
-    "Item/service_1": "Repas chaud",
-    "Item/service_2": "Boissons artisanales"
+    "Itemservice_1": "Repas chaud",
+    "Itemservice_2": "Boissons artisanales"
   },
   {
     "ID": 8,
@@ -92,8 +92,8 @@
     "Localisation": "Quartier Latin",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/aubergiste.jpg",
     "Price_level": "Moyen",
-    "Item/service_1": "Chambre pour la nuit",
-    "Item/service_2": "Renseignements"
+    "Itemservice_1": "Chambre pour la nuit",
+    "Itemservice_2": "Renseignements"
   },
   {
     "ID": 9,
@@ -104,8 +104,8 @@
     "Localisation": "Belleville",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/garde.jpg",
     "Price_level": "Élevé",
-    "Item/service_1": "Protection rapprochée",
-    "Item/service_2": "Exfiltration de personnes"
+    "Itemservice_1": "Protection rapprochée",
+    "Itemservice_2": "Exfiltration de personnes"
   },
   {
     "ID": 10,
@@ -116,8 +116,8 @@
     "Localisation": "Le Marais",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/contrebandier.jpg",
     "Price_level": "Faible",
-    "Item/service_1": "Armes",
-    "Item/service_2": "Vaccins"
+    "Itemservice_1": "Armes",
+    "Itemservice_2": "Vaccins"
   },
   {
     "ID": 11,
@@ -128,8 +128,8 @@
     "Localisation": "La Défense",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/ingenieur.jpg",
     "Price_level": "Élevé",
-    "Item/service_1": "Matériaux divers",
-    "Item/service_2": "Générateurs"
+    "Itemservice_1": "Matériaux divers",
+    "Itemservice_2": "Générateurs"
   },
   {
     "ID": 12,
@@ -140,8 +140,8 @@
     "Localisation": "Montmartre",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/informatician.jpg",
     "Price_level": "Moyen",
-    "Item/service_1": "Décryptage de données",
-    "Item/service_2": "Maintenance réseau"
+    "Itemservice_1": "Décryptage de données",
+    "Itemservice_2": "Maintenance réseau"
   },
   {
     "ID": 13,
@@ -152,8 +152,8 @@
     "Localisation": "Quartier Latin",
     "Picture": "C:/Users/aurel/OneDrive/Bureau/Wild-Code-School/Travaux/protojam/client/src/assets/Pictures/journaliste.jpg",
     "Price_level": "Faible",
-    "Item/service_1": "Reportage",
-    "Item/service_2": "Renseignements"
+    "Itemservice_1": "Reportage",
+    "Itemservice_2": "Renseignements"
   },
   {
     "ID": 14,
@@ -164,8 +164,8 @@
     "Localisation": "Le Marais",
     "Picture": "",
     "Price_level": "Moyen",
-    "Item/service_1": "Livraison rapide",
-    "Item/service_2": "Transport sécurisé"
+    "Itemservice_1": "Livraison rapide",
+    "Itemservice_2": "Transport sécurisé"
   },
   {
     "ID": 15,
@@ -176,8 +176,8 @@
     "Localisation": "Belleville",
     "Picture": "",
     "Price_level": "Faible",
-    "Item/service_1": "Pain artisanal",
-    "Item/service_2": "Pâtisseries simples"
+    "Itemservice_1": "Pain artisanal",
+    "Itemservice_2": "Pâtisseries simples"
   },
   {
     "ID": 16,
@@ -188,8 +188,8 @@
     "Localisation": "La Défense",
     "Picture": "",
     "Price_level": "Moyen",
-    "Item/service_1": "Matériaux divers",
-    "Item/service_2": "Outils"
+    "Itemservice_1": "Matériaux divers",
+    "Itemservice_2": "Outils"
   },
   {
     "ID": 17,
@@ -200,8 +200,8 @@
     "Localisation": "Montmartre",
     "Picture": "",
     "Price_level": "Moyen",
-    "Item/service_1": "Métaux divers",
-    "Item/service_2": "Outils"
+    "Itemservice_1": "Métaux divers",
+    "Itemservice_2": "Outils"
   },
   {
     "ID": 18,
@@ -212,8 +212,8 @@
     "Localisation": "Quartier Latin",
     "Picture": "",
     "Price_level": "Faible",
-    "Item/service_1": "Viande fraîche",
-    "Item/service_2": "Œufs et produits laitiers"
+    "Itemservice_1": "Viande fraîche",
+    "Itemservice_2": "Œufs et produits laitiers"
   },
   {
     "ID": 19,
@@ -224,8 +224,8 @@
     "Localisation": "Le Marais",
     "Picture": "",
     "Price_level": "Moyen",
-    "Item/service_1": "Vêtements",
-    "Item/service_2": "Tissus"
+    "Itemservice_1": "Vêtements",
+    "Itemservice_2": "Tissus"
   },
   {
     "ID": 20,
@@ -236,7 +236,7 @@
     "Localisation": "Belleville",
     "Picture": "",
     "Price_level": "Faible",
-    "Item/service_1": "Fromages artisanaux",
-    "Item/service_2": "Produits laitiers"
+    "Itemservice_1": "Fromages artisanaux",
+    "Itemservice_2": "Produits laitiers"
   }
 ]
