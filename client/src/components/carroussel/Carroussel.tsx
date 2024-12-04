@@ -43,7 +43,7 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
                     <em>{c.Description}</em>{" "}
                   </h3>
                   <h3>
-                    <em>{c.Price_level}</em>{" "}
+                    <em>Prix : {c.Price_level}</em>{" "}
                   </h3>
                 </figcaption>
               </figure>
@@ -67,7 +67,7 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
                     <em>{c.Description}</em>{" "}
                   </h3>
                   <h3>
-                    <em>{c.Price_level}</em>{" "}
+                    <em>Prix : {c.Price_level}</em>{" "}
                   </h3>
                 </figcaption>
               </figure>
@@ -91,7 +91,7 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
                     <em>{c.Description}</em>{" "}
                   </h3>
                   <h3>
-                    <em>{c.Price_level}</em>{" "}
+                    <em>Prix : {c.Price_level}</em>{" "}
                   </h3>
                 </figcaption>
               </figure>
@@ -115,7 +115,7 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
                     <em>{c.Description}</em>{" "}
                   </h3>
                   <h3>
-                    <em>{c.Price_level}</em>{" "}
+                    <em>Prix : {c.Price_level}</em>{" "}
                   </h3>
                 </figcaption>
               </figure>
