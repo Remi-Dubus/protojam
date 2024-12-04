@@ -1,9 +1,3 @@
-/* section regroupant tout le composant */
-.searchBarSection {
-  padding-top: 0;
-  padding-bottom: 2rem;
-}
-
 /* titre de la barre de recherche */
 .searchLabel {
   font-size: 1rem;
