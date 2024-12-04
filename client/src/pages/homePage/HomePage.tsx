@@ -24,6 +24,7 @@ import Tapisier from "../../assets/images/tapissier.jpg";
 import type { charactersType } from "../../assets/lib/definitions";
 import Carroussel from "../../components/carroussel/Carroussel";
 import CharactersSearch from "../../components/charactersSearch/CharactersSearch";
+import style from "./homePage.module.css";
 
 export default function HomePage() {
   const characters: charactersType[] = useLoaderData() as charactersType[];
@@ -45,7 +46,7 @@ export default function HomePage() {
   const cardValue: charactersType | null = useOutletContext();
 
   return (
-    <>
+    <div className={style.home}>
       <article>
         <CharactersSearch character={cardValue && cardValue} />
       </article>
@@ -58,6 +59,6 @@ export default function HomePage() {
           pictureBiens={pictureBiens}
         />
       </article>
-    </>
+    </div>
   );
 }

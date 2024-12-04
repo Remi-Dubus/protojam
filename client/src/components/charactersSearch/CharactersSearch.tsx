@@ -1,14 +1,11 @@
 import type { charactersType } from "../../assets/lib/definitions";
+import style from "./charactersSearch.module.css";
 
 function CharactersDetails({
   character,
 }: { character: charactersType | null }) {
   return (
-    <div>
-      <img
-        src={character ? character.Picture : ""}
-        alt={character ? character.Firstname : ""}
-      />
+    <div className={style.description}>
       <h2>{character ? character.Firstname : ""}</h2>
       <p>Profession : {character ? character.Profession : ""}</p>
       <p>Catégorie : {character ? character.Catégorie : ""}</p>
