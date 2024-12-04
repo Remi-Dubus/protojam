@@ -1,6 +1,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: row;
   width: 100%;
   background-color: rgba(29, 92, 50, 0.336);
@@ -11,16 +12,24 @@
 .logo {
   width: 4em;
   height: 4em;
+  @media (min-width: 768px) {
+    padding-left: 1em;
+    width: 5em;
+    height: 5em;
+  }
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  padding: 1em;
 }
 
 .filtre-container {
   width: 4em;
   margin: 0.5em;
+  @media (min-width: 768px) {
+    margin-right: 1em;
+  }
 }
