@@ -1,16 +1,28 @@
+import { useState } from "react";
 import Slider from "react-slick";
 import styles from "./Carroussel.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import type { charactersType } from "../../assets/lib/definitions";
+import CharactersDetails from "../characters/CharactersDetails";
 
 function Carroussel({ characters }: { characters: charactersType[] }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+  };
+
+  const handleClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleKey = () => {
+    setIsModalOpen(true);
   };
 
   const alimentation = characters.filter((alim) =>
@@ -32,7 +44,12 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
 
           <Slider {...settings}>
             {alimentation.map((c) => (
-              <figure className={styles.cards} key={c.ID}>
+              <figure
+                className={styles.cards}
+                key={c.ID}
+                onClick={handleClick}
+                onKeyDown={handleKey}
+              >
                 <img src={c.Picture} alt="{data[0].Image}" />
                 <figcaption id={`${c.ID}`}>
                   <h3 className={styles.title}>{c.Firstname}</h3>
@@ -51,12 +68,18 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
           </Slider>
         </div>
       </div>
+      {isModalOpen && <CharactersDetails closeModal={setIsModalOpen} />}
       <div className={styles.slidercontainer}>
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>EQUIPEMENTS</h2>
           <Slider {...settings}>
             {equip.map((c) => (
-              <figure className={styles.cards} key={c.ID}>
+              <figure
+                className={styles.cards}
+                key={c.ID}
+                onClick={handleClick}
+                onKeyDown={handleKey}
+              >
                 <img src={c.Picture} alt="{data[0].Image}" />
                 <figcaption id={`${c.ID}`}>
                   <h3 className={styles.title}>{c.Firstname}</h3>
@@ -75,12 +98,18 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
           </Slider>
         </div>
       </div>
+      {isModalOpen && <CharactersDetails closeModal={setIsModalOpen} />}
       <div className={styles.slidercontainer}>
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>SERVICES</h2>
           <Slider {...settings}>
             {serv.map((c) => (
-              <figure className={styles.cards} key={c.ID}>
+              <figure
+                className={styles.cards}
+                key={c.ID}
+                onClick={handleClick}
+                onKeyDown={handleKey}
+              >
                 <img src={c.Picture} alt="{data[0].Image}" />
                 <figcaption id={`${c.ID}`}>
                   <h3 className={styles.title}>{c.Firstname}</h3>
@@ -99,12 +128,18 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
           </Slider>
         </div>
       </div>
+      {isModalOpen && <CharactersDetails closeModal={setIsModalOpen} />}
       <div className={styles.slidercontainer}>
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>BIENS</h2>
           <Slider {...settings}>
             {biens.map((c) => (
-              <figure className={styles.cards} key={c.ID}>
+              <figure
+                className={styles.cards}
+                key={c.ID}
+                onClick={handleClick}
+                onKeyDown={handleKey}
+              >
                 <img src={c.Picture} alt="{data[0].Image}" />
                 <figcaption id={`${c.ID}`}>
                   <h3 className={styles.title}>{c.Firstname}</h3>
@@ -123,6 +158,7 @@ function Carroussel({ characters }: { characters: charactersType[] }) {
           </Slider>
         </div>
       </div>
+      {isModalOpen && <CharactersDetails closeModal={setIsModalOpen} />}
     </div>
   );
 }

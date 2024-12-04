@@ -1,8 +1,21 @@
 import { useEffect, useState } from "react";
 import type { charactersType } from "../../assets/lib/definitions";
+import style from "./charactersDetails.module.css";
 
-function CharactersDetails() {
+interface ModalProps {
+  closeModal: (closeModal: boolean) => void;
+}
+
+function CharactersDetails({ closeModal }: ModalProps) {
   const [characters, setCharacters] = useState<charactersType[] | null>(null);
+
+  const handleClick = () => {
+    closeModal(false);
+  };
+
+  const handleKey = () => {
+    closeModal(false);
+  };
 
   useEffect(() => {
     const fetchCharacters = () => {
@@ -17,7 +30,11 @@ function CharactersDetails() {
   }, []);
 
   return (
-    <div>
+    <div
+      onClick={handleClick}
+      onKeyDown={handleKey}
+      className={style.modalBackground}
+    >
       <h1>Liste des Personnages</h1>
       <div>
         {characters?.map((character) => (
