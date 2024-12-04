@@ -12,26 +12,23 @@ import Journaliste from "../../assets/images/journaliste.jpg";
 import Marchand from "../../assets/images/marchand.jpg";
 import Mécanicien from "../../assets/images/mecanicien.jpg";
 import Médecin from "../../assets/images/medecin.jpg";
-import Restaurateur from "../../assets/images/medecin.jpg";
 import Mercenaire from "../../assets/images/mercenaire.jpg";
+import Restaurateur from "../../assets/images/restaurateur.jpg";
 
 import type { charactersType } from "../../assets/lib/definitions";
 import Carroussel from "../../components/carroussel/Carroussel";
 
 export default function HomePage() {
   const characters = data as charactersType[];
-  const arrayOfpicture = [
-    Médecin,
-    Mécanicien,
+
+  const pictureFood = [Restaurateur];
+  const pictureEquip = [Mécanicien, Armurier];
+  const pictureBiens = [Médecin, Marchand, Contrebandier, Ingénieur];
+  const pictureServ = [
     Mercenaire,
     ChasseurdePrime,
-    Marchand,
-    Armurier,
-    Restaurateur,
     Aubergiste,
     Garde,
-    Contrebandier,
-    Ingénieur,
     Informaticien,
     Journaliste,
   ];
@@ -42,7 +39,15 @@ export default function HomePage() {
   return (
     <>
       <h1>{cardValue ? cardValue.Firstname : []}</h1>
-      <Carroussel characters={characters} picture={arrayOfpicture} />
+      <article>
+        <Carroussel
+          characters={characters}
+          pictureFood={pictureFood}
+          pictureEquip={pictureEquip}
+          pictureServ={pictureServ}
+          pictureBiens={pictureBiens}
+        />
+      </article>
     </>
   );
 }
