@@ -19,10 +19,6 @@
 }
 
 .heroPic {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
   width: 150%;
   height: 450px;
   background-image: url("../../assets/images/hero-picture.jpg");
@@ -69,6 +65,7 @@
 
   .heroPic {
     height: 600px;
+    width: auto;
   }
 
   .textContainer {
