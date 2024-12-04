@@ -36,7 +36,7 @@ function Carroussel({
     equipement.Catégorie.includes("Equipements"),
   );
   return (
-    <div className={styles.alignement}>
+    <div className={styles.alignement} id="food">
       <div className={styles.slidercontainer}>
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>ALIMENTATION</h2>
@@ -62,7 +62,7 @@ function Carroussel({
           </Slider>
         </div>
       </div>
-      <div className={styles.slidercontainer}>
+      <div className={styles.slidercontainer} id="equip">
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>EQUIPEMENTS</h2>
           <Slider {...settings}>
@@ -86,7 +86,7 @@ function Carroussel({
           </Slider>
         </div>
       </div>
-      <div className={styles.slidercontainer}>
+      <div className={styles.slidercontainer} id="serv">
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>SERVICES</h2>
           <Slider {...settings}>
@@ -110,7 +110,7 @@ function Carroussel({
           </Slider>
         </div>
       </div>
-      <div className={styles.slidercontainer}>
+      <div className={styles.slidercontainer} id="biens">
         <div className={styles.contener}>
           <h2 className={styles.maintitle}>BIENS</h2>
           <Slider {...settings}>
