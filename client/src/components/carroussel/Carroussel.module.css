@@ -42,14 +42,14 @@
 
 .cards {
   display: flex;
-  height: 72vh;
+  height: 78vh;
   width: 100%;
   justify-content: center;
   @media (min-width: 768px) {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 74vh;
+    height: 95vh;
   }
 }
 
@@ -59,13 +59,9 @@ figure img {
   box-shadow: 0 0 5px black;
   height: 180px;
   width: 180px;
-  margin: 1rem;
-  position: relative;
-  left: 85px;
+  margin: 0 auto;
   @media (min-width: 768px) {
-    margin: 0 4rem;
     box-shadow: 0 0 10px black;
-    left: 132px;
     width: 350px;
     height: 350px;
   }
@@ -79,15 +75,13 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 35vh;
+  height: 39vh;
   margin: 1rem 2rem;
   @media (min-width: 768px) {
-    height: 35vh;
-    margin: 1rem 3rem 0 3rem;
+    height: 41vh;
+    margin: 1rem auto;
     box-shadow: 0 0 10px black;
-    width: 500px;
-    position: relative;
-    left: 65px;
+    width: 400px;
   }
 }
 
